@@ -17,6 +17,10 @@
 - [邮件模板](docs/template/mail-style.md)
 - [思维导图模板](docs/template/mind-template.xmind)
 
+## 目录管理规范
+
+- [目录管理规范](docs/directory/README.md)
+
 ## 项目结构规范
 
 - [项目结构规范](docs/project/README.md)
