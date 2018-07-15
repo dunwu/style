@@ -1,19 +1,17 @@
 # Style
 
-## :one: 文档书写规范
+## :zero: [文档模板](docs/template)
+
+- 工作邮件模板
+- 思维导图模板
+- 软件详细设计模板
+- 软件详细设计说明书模板
+
+## :one: [文档书写规范](docs/document)
 
 - [Markdown 语法](docs/document/markdown.md)
 - [文档规范](docs/document/文档规范.md)
 
-## :two: 文档模板
+## :three: [目录管理规范](docs/dir-style.md)
 
-- [邮件模板](docs/template/mail-style.md)
-- [思维导图模板](docs/template/mind-template.xmind)
-
-## :three: 目录管理规范
-
-- [目录管理规范](docs/directory/README.md)
-
-## :four: 项目结构规范
-
-- [项目结构规范](docs/project/README.md)
+## :four: [项目结构规范](docs/project-style.md)

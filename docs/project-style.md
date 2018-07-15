@@ -1,6 +1,16 @@
 # project-style
 
-软件项目开发规范。
+> 软件项目开发规范。
+
+<!-- TOC depthFrom:2 depthTo:3 -->
+
+- [项目结构](#项目结构)
+    - [目录](#目录)
+    - [文件](#文件)
+- [目录名](#目录名)
+- [文件名](#文件名)
+
+<!-- /TOC -->
 
 ## 项目结构
 
@@ -74,12 +84,12 @@
 
 ```
 错误：TroubleShooting.md
-正确：troubleshooting.md 
+正确：troubleshooting.md
 ```
 
 为了醒目，某些说明文件的文件名，可以使用大写字母，比如`README`、`LICENSE`。
 
-一些约定俗成的习惯可以保持传统写法，如：Java 的文件名一般使用驼峰命名法，且首字母大写；配置文件  `applicationContext.xml` ；React 中的 JSX 组件文件名一般使用驼峰命名法，且首字母大写等。
+一些约定俗成的习惯可以保持传统写法，如：Java 的文件名一般使用驼峰命名法，且首字母大写；配置文件 `applicationContext.xml` ；React 中的 JSX 组件文件名一般使用驼峰命名法，且首字母大写等。
 
 文件名包含多个单词时，单词之间建议使用半角的连词线（`-`）分隔。
 
