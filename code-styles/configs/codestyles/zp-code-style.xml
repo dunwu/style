@@ -1,4 +1,4 @@
-<code_scheme name="ZPCODES" version="173">
+<code_scheme name="ZPStyle" version="173">
   <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <option name="FORMATTER_TAGS_ACCEPT_REGEXP" value="true" />
@@ -7,11 +7,37 @@
     <option name="HEX_COLOR_UPPER_CASE" value="true" />
     <option name="HEX_COLOR_LONG_FORMAT" value="true" />
   </CssCodeStyleSettings>
+  <DBN-PSQL>
+    <case-options enabled="false">
+      <option name="KEYWORD_CASE" value="lower" />
+      <option name="FUNCTION_CASE" value="lower" />
+      <option name="PARAMETER_CASE" value="lower" />
+      <option name="DATATYPE_CASE" value="lower" />
+      <option name="OBJECT_CASE" value="preserve" />
+    </case-options>
+    <formatting-settings enabled="false" />
+  </DBN-PSQL>
+  <DBN-SQL>
+    <case-options enabled="true">
+      <option name="KEYWORD_CASE" value="upper" />
+      <option name="FUNCTION_CASE" value="upper" />
+      <option name="PARAMETER_CASE" value="lower" />
+      <option name="DATATYPE_CASE" value="lower" />
+      <option name="OBJECT_CASE" value="lower" />
+    </case-options>
+    <formatting-settings enabled="true">
+      <option name="STATEMENT_SPACING" value="one_line" />
+      <option name="CLAUSE_CHOP_DOWN" value="chop_down" />
+      <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
+    </formatting-settings>
+  </DBN-SQL>
   <JavaCodeStyleSettings>
     <option name="BLANK_LINES_AROUND_INITIALIZER" value="0" />
     <option name="JD_ALIGN_PARAM_COMMENTS" value="false" />
     <option name="JD_ALIGN_EXCEPTION_COMMENTS" value="false" />
     <option name="JD_ADD_BLANK_AFTER_DESCRIPTION" value="false" />
+    <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
+    <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
   </JavaCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="false">
@@ -53,6 +79,8 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
+    <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+    <option name="LINE_COMMENT_ADD_SPACE" value="true" />
     <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
@@ -62,7 +90,9 @@
     <option name="BLANK_LINES_BEFORE_IMPORTS" value="0" />
     <option name="BLANK_LINES_AROUND_CLASS" value="2" />
     <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
     <option name="ALIGN_MULTILINE_RESOURCES" value="false" />
     <option name="SPACE_BEFORE_ARRAY_INITIALIZER_LBRACE" value="true" />
     <option name="CALL_PARAMETERS_WRAP" value="1" />
@@ -76,6 +106,7 @@
     <option name="BINARY_OPERATION_WRAP" value="1" />
     <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
     <option name="TERNARY_OPERATION_WRAP" value="5" />
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="true" />
@@ -83,17 +114,38 @@
     <option name="ASSIGNMENT_WRAP" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
     <option name="WRAP_LONG_LINES" value="true" />
-    <option name="METHOD_ANNOTATION_WRAP" value="1" />
-    <option name="CLASS_ANNOTATION_WRAP" value="1" />
-    <option name="FIELD_ANNOTATION_WRAP" value="1" />
     <option name="PARAMETER_ANNOTATION_WRAP" value="1" />
     <option name="VARIABLE_ANNOTATION_WRAP" value="1" />
+    <option name="ENUM_CONSTANTS_WRAP" value="2" />
+    <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+        <group>
+          <type>OVERRIDDEN_METHODS</type>
+          <order>KEEP</order>
+        </group>
+        <group>
+          <type>DEPENDENT_METHODS</type>
+          <order>BREADTH_FIRST</order>
+        </group>
+      </groups>
+    </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SQL">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">

@@ -25,15 +25,17 @@
 
 ## 代码格式化
 
-（1）先配置代码格式化模板文件
+> 我参考 https://github.com/square/java-code-styles 添加了 Google code style 和我个人的 code style
 
-依次在 Intellij 中 点击 File -> Settings -> Editor -> Code Style
+使用步骤如下：
 
-导入 svn://192.168.31.52/应用创新/06 编码/编程规范/TranswarpStyle.xml 文件，如下图所示。
+（1）将当前目录完整下载到本地。
 
-<br><div align="center"><img src="http://oyz7npk35.bkt.clouddn.com/images/20180920181023163721.png"/></div><br>
+（2）Window 环境执行 install.bat；Mac 环境执行 install.sh。重启 Intellij。
 
-点击确定即可。
+（3）选择 Code Style 模板
+
+依次在 Intellij 中 点击 File -> Settings -> Editor -> Code Style ，然后选择喜欢的格式化模板。
 
 接着，就可以在 Intellij 中使用代码格式化，快捷键：`Ctrl + Alt + L`
 
