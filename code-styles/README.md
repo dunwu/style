@@ -39,7 +39,15 @@
 
 接着，就可以在 Intellij 中使用代码格式化，快捷键：`Ctrl + Alt + L`
 
-## 引用和引申
+## 参考资料
 
-- https://google.github.io/styleguide/javaguide.html
+- [《阿里巴巴 Java 开发手册》](https://book.douban.com/subject/27605355/)
+- [《代码整洁之道》](https://book.douban.com/subject/4199741/)
+- [《码出高效：Java 开发手册》](https://book.douban.com/subject/30333948/)
+- [《Java 编程思想（Thinking in java）》](https://book.douban.com/subject/2130190/)
+- [《Effective Java》](https://book.douban.com/subject/30412517/)
+- [《Head First 设计模式》](https://book.douban.com/subject/2243615/)
+- [《Java 并发编程实战》](https://book.douban.com/subject/10484692/)
+- [《Java 并发编程的艺术》](https://book.douban.com/subject/26591326/)
+- [《Google Style Guides》](https://google.github.io/styleguide/javaguide.html)
 - https://github.com/google/google-java-format

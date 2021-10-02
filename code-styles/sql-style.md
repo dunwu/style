@@ -1,4 +1,4 @@
-# MySQL 数据库
+# MySQL 规范
 
 ## (一) 建表规约
 
@@ -138,4 +138,4 @@
 
 ## 参考资料
 
-[阿里巴巴 Java 开发手册最新版](https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.1.4577601asIhzbW&id=628337143778&areaId=330100&user_id=1932014659&cat_id=2&is_b=1&rn=11a322ef70720cdf5e894001e4b48b55)
+- [《阿里巴巴 Java 开发手册》](https://book.douban.com/subject/27605355/)
